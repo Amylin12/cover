@@ -1,0 +1,423 @@
+/* this is where all of your CSS styles go */
+
+
+/*.rec {
+
+	width:800px;
+	height:1120px;
+	background: #FFFBF2;
+	border:2px tan solid;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	box-shadow:inset grey 23px 0px 40px -16px;
+	box-shadow:grey;
+	overflow:hidden;
+
+}
+
+.square1 {
+	width:715px;
+	height:700px;
+	background: #987D36;
+	position:relative;
+	top:6%;
+	left:5%;	
+    animation:7s spinow11 infinite linear;
+}
+@keyframes spinow11 {
+	25%{ transform:rotate(360deg);border-radius:25%;}
+	50%{ transform:rotate(360deg);border-radius:50%;}
+	75%{ transform:rotate(360deg);border-radius:75%;}
+	100%{ transform:rotate(360deg);border-radius:100%;}
+}
+
+.square2 {
+	width:630px;
+	height:620px;
+	background: #CC994A;
+	position:relative;
+	top:-50.8%;
+	left:10.3%;
+animation:7s spinow21 infinite linear;
+}
+@keyframes spinow21 {
+	25%{ transform:rotate(360deg);border-radius:25%;}
+	50%{ transform:rotate(360deg);border-radius:50%;}
+	75%{ transform:rotate(360deg);border-radius:75%;}
+	100%{ transform:rotate(360deg);border-radius:100%;}
+}
+
+.square3 {
+	width:545px;
+	height:535px;
+	background:#E3B27A;
+	position:relative;
+	top:-100%;
+	left:15.5%;
+	animation:7s spinow3 infinite linear;
+}
+@keyframes spinow3 {
+	25%{ transform:rotate(360deg);border-radius:25%;}
+	50%{ transform:rotate(360deg);border-radius:50%;}
+	75%{ transform:rotate(360deg);border-radius:75%;}
+	100%{ transform:rotate(360deg);border-radius:100%;}
+}
+.square4 {
+	width:460px;
+	height:454px;
+	background:#EC9659;
+	position:relative;
+	top:-141.8%;
+	left:20.8%;
+	animation:7s spinow4 infinite linear;
+}
+@keyframes spinow4 {
+	25%{ transform:rotate(360deg);border-radius:25%;}
+	50%{ transform:rotate(360deg);border-radius:50%;}
+	75%{ transform:rotate(360deg);border-radius:75%;}
+	100%{ transform:rotate(360deg);border-radius:100%;}
+}
+.square5 {
+	width:375px;
+	height:370px;
+	background:#F0AA52;
+	position:relative;
+	top:-176.2%;
+	left:26%;
+    animation:7s spinow5 infinite linear;
+}
+
+@keyframes spinow5 {
+	25%{ transform:rotate(360deg);border-radius:25%;}
+	50%{ transform:rotate(360deg);border-radius:50%;}
+	75%{ transform:rotate(360deg);border-radius:75%;}
+	100%{ transform:rotate(360deg);border-radius:100%;}
+}
+
+.square6 {
+	width:290px;
+	height:292px;
+	background:#FECF4D;
+	position:relative;
+	top:-203.5%;
+	left:31.4%;
+	animation:7s spinow6 infinite linear;
+}
+
+@keyframes spinow6 {
+	25%{ transform:rotate(360deg);border-radius:25%;}
+	50%{ transform:rotate(360deg);border-radius:50%;}
+	75%{ transform:rotate(360deg);border-radius:75%;}
+	100%{ transform:rotate(360deg);border-radius:100%;}
+}
+
+.square7 {
+	width:205px;
+	height:214px;
+	background:#FAE147;
+	position:relative;
+	top:-224.3%;
+	left:36.8%;
+	animation:7s spinow7 infinite linear ;
+}
+
+@keyframes spinow7 {
+	25%{ transform:rotate(360deg);border-radius:25%;}
+	50%{ transform:rotate(360deg);border-radius:50%;}
+	75%{ transform:rotate(360deg);border-radius:75%;}
+	100%{ transform:rotate(360deg);border-radius:100%;}
+}
+
+.square8 {
+	width:130px;
+	height:135px;
+	background:#FAEBCA;
+	position:relative;
+	top:-237.8%;
+	left:41.5%;
+	animation:7s spinow8 infinite linear ;
+}
+
+@keyframes spinow8 {
+	25%{ transform:rotate(360deg);border-radius:25%;}
+	50%{ transform:rotate(360deg);border-radius:50%;}
+	75%{ transform:rotate(360deg);border-radius:75%;}
+	100%{ transform:rotate(360deg);border-radius:100%;}
+	
+
+}*/
+
+
+
+
+
+
+
+.rec {
+
+	width:800px;
+	height:1120px;
+	background: #FFFBF2;
+	border:2px tan solid;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	box-shadow:inset grey 23px 0px 40px -16px;
+	box-shadow:grey;
+	overflow:hidden;
+
+}
+
+.square1 {
+	width:715px;
+	height:700px;
+	background: #987D36;
+	position:relative;
+	top:6%;
+	left:5%;
+	box-shadow:inset grey 23px 0px 40px -16px;	
+    animation:6s spinow11 infinite linear alternate;
+}
+@keyframes spinow11 {
+	25%{ transform:rotate(-360deg);border-radius:15%;}
+	50%{ transform:rotate(-360deg);border-radius:50%;}
+	75%{ transform:rotate(-360deg);border-radius:75%;}
+	100%{ transform:rotate(-360deg);border-radius:100%;}
+}
+
+.square2 {
+	width:630px;
+	height:620px;
+	background: #CC994A;
+	position:relative;
+	top:-50.8%;
+	left:10.3%;
+	box-shadow:inset grey 23px 0px 40px -16px;
+animation:7s spinow21 infinite linear alternate;
+}
+@keyframes spinow21 {
+	25%{ transform:rotate(360deg);border-radius:15%;}
+	50%{ transform:rotate(360deg);border-radius:50%;}
+	75%{ transform:rotate(360deg);border-radius:75%;}
+	100%{ transform:rotate(360deg);border-radius:100%;}
+}
+
+.square3 {
+	width:545px;
+	height:535px;
+	background:#E3B27A;
+	position:relative;
+	top:-100%;
+	left:15.5%;
+	box-shadow:inset grey 23px 0px 40px -16px;
+	animation:6s spinow3 infinite linear alternate;
+}
+@keyframes spinow3 {
+	25%{ transform:rotate(-360deg);border-radius:15%;}
+	50%{ transform:rotate(-360deg);border-radius:50%;}
+	75%{ transform:rotate(-360deg);border-radius:75%;}
+	100%{ transform:rotate(-360deg);border-radius:100%;}
+}
+.square4 {
+	width:460px;
+	height:454px;
+	background:#EC9659;
+	position:relative;
+	top:-141.8%;
+	left:20.8%;
+	box-shadow:inset grey 23px 0px 40px -16px;
+	animation:7s spinow4 infinite linear alternate;
+}
+@keyframes spinow4 {
+	25%{ transform:rotate(360deg);border-radius:15%;}
+	50%{ transform:rotate(360deg);border-radius:50%;}
+	75%{ transform:rotate(360deg);border-radius:75%;}
+	100%{ transform:rotate(360deg);border-radius:100%;}
+}
+.square5 {
+	width:375px;
+	height:370px;
+	background:#F0AA52;
+	position:relative;
+	top:-176.2%;
+	left:26%;
+	box-shadow:inset grey 23px 0px 40px -16px;
+    animation:6s spinow5 infinite linear alternate;
+}
+
+@keyframes spinow5 {
+	25%{ transform:rotate(-360deg);border-radius:15%;}
+	50%{ transform:rotate(-360deg);border-radius:50%;}
+	75%{ transform:rotate(-360deg);border-radius:75%;}
+	100%{ transform:rotate(-360deg);border-radius:100%;}
+}
+
+.square6 {
+	width:290px;
+	height:292px;
+	background:#FECF4D;
+	position:relative;
+	top:-203.5%;
+	left:31.4%;
+	box-shadow:inset grey 23px 0px 40px -16px;
+	animation:7s spinow6 infinite linear alternate;
+}
+
+@keyframes spinow6 {
+	25%{ transform:rotate(360deg);border-radius:15%;}
+	50%{ transform:rotate(360deg);border-radius:50%;}
+	75%{ transform:rotate(360deg);border-radius:75%;}
+	100%{ transform:rotate(360deg);border-radius:100%;}
+}
+
+.square7 {
+	width:205px;
+	height:214px;
+	background:#FAE147;
+	position:relative;
+	top:-224.3%;
+	left:36.8%;
+	box-shadow:inset grey 23px 0px 40px -16px;
+	animation:6s spinow7 infinite linear alternate ;
+}
+
+@keyframes spinow7 {
+	25%{ transform:rotate(-360deg);border-radius:15%;}
+	50%{ transform:rotate(-360deg);border-radius:50%;}
+	75%{ transform:rotate(-360deg);border-radius:75%;}
+	100%{ transform:rotate(-360deg);border-radius:100%;}
+}
+
+.square8 {
+	width:130px;
+	height:135px;
+	background:#FAEBCA;
+	position:relative;
+	top:-237.8%;
+	left:41.5%;
+	box-shadow:inset grey 23px 0px 40px -16px;
+	animation:7s spinow8 infinite alternate linear ;
+}
+
+@keyframes spinow8 {
+	25%{ transform:rotate(360deg);border-radius:15%;}
+	50%{ transform:rotate(360deg);border-radius:50%;}
+	75%{ transform:rotate(360deg);border-radius:75%;}
+	100%{ transform:rotate(360deg);border-radius:100%;}
+	
+}
+
+.srec1{
+	width:60px;
+	height:9px;
+	background:#EC9659;
+	position:relative;
+	top:-219%;
+	left:15.5%;
+    animation:10s spinow1 infinite linear ;
+}
+
+@keyframes spinow1 {
+	25%{ border-radius:0%; width:0px;}
+	50%{ border-radius:10%;width:-2px;}
+	75%{border-radius:10%;width:-1px;}
+	100%{ border-radius:10%;width:-2px;}
+}
+
+
+.srec2{
+	width:60px;
+	height:9px;
+	background:#FECF4D;
+	position:relative;
+	top:-206%;
+	left:15.5%;
+	animation:10s spinow2 infinite linear ;
+
+}
+
+@keyframes spinow2 {
+	25%{ border-radius:0%; width:0px;}
+	50%{ border-radius:10%;width:-2px;}
+	75%{ border-radius:10%;width:-1px;}
+	100%{ border-radius:10%;width:-2px;}
+
+}
+
+
+
+
+.cover {
+	width:100vw;
+	height:100vw;
+	background:rbg(180,140,74);
+}
+
+@font-face {
+	font-family: "westregular";
+	src:url(../fonts/West_VAR.woff2);
+}
+
+
+
+
+.title{
+	font-family: westregular;
+	font-size:1.1em;
+	color:black;
+	position:absolute;
+	left:9.3%;
+	top:74.99%;
+	
+}
+
+
+.title1{
+	font-family:westregular;
+	font-size:2.3em;
+	color:black;
+	position:absolute;
+	left:25%;
+	top:72.29%;
+	animation:twr infinite alternate 7s;
+}
+.author{
+	font-family:westregular;
+	font-size:1.1em;
+	color:black;
+	position:absolute;
+	left:6.6%;
+	top:88.8%;
+}
+.author1{
+	font-family:westregular;
+	font-size:2.3em;
+	color:black;
+	position:absolute;
+	left:25%;
+	top:86.35%;
+	animation:twa infinite alternate 7s;
+}
+.text{
+	font-family:westregular;
+	font-size:1.15em;
+	color:black;
+	position:absolute;
+	left:81.7%;
+	top:74.52%;
+}
+
+@keyframes twr {
+	0%{font-variation-settings: "wght" 200;}
+ 	100%{font-variation-settings: "wght" 500;}
+}
+
+@keyframes twa {
+	0%{font-variation-settings: "wght" 200;}
+ 	100%{font-variation-settings: "wght" 500;}
+}
+/*100 and 900 is the range for line weight*/
+
